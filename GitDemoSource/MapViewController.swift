@@ -13,6 +13,7 @@ class MapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print("Hi, Map after commit to remote Github")
         // Do any additional setup after loading the view.
     }
 
