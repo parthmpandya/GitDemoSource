@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonClickAction(_ sender: UIButton) {
+        performSegue(withIdentifier: "MapSegue", sender: self)
         print("Button Click Action---===")
     }
     
