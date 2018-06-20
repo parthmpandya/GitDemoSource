@@ -14,6 +14,7 @@
 		B202F3C220DA5DCF007707EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B202F3C020DA5DCF007707EF /* LaunchScreen.storyboard */; };
 		B202F3CD20DA5DCF007707EF /* GitDemoSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202F3CC20DA5DCF007707EF /* GitDemoSourceTests.swift */; };
 		B202F3D820DA5DCF007707EF /* GitDemoSourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202F3D720DA5DCF007707EF /* GitDemoSourceUITests.swift */; };
+		B248A77420DA73B50093B512 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B248A77320DA73B50093B512 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B202F3D320DA5DCF007707EF /* GitDemoSourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoSourceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B202F3D720DA5DCF007707EF /* GitDemoSourceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitDemoSourceUITests.swift; sourceTree = "<group>"; };
 		B202F3D920DA5DCF007707EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B248A77320DA73B50093B512 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		B202F3B620DA5DCE007707EF /* GitDemoSource */ = {
 			isa = PBXGroup;
 			children = (
+				B248A77520DA743E0093B512 /* Map Group */,
 				B202F3B720DA5DCE007707EF /* AppDelegate.swift */,
 				B202F3B920DA5DCE007707EF /* ViewController.swift */,
 				B202F3BB20DA5DCF007707EF /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				B202F3D920DA5DCF007707EF /* Info.plist */,
 			);
 			path = GitDemoSourceUITests;
+			sourceTree = "<group>";
+		};
+		B248A77520DA743E0093B512 /* Map Group */ = {
+			isa = PBXGroup;
+			children = (
+				B248A77320DA73B50093B512 /* MapViewController.swift */,
+			);
+			name = "Map Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B202F3BA20DA5DCE007707EF /* ViewController.swift in Sources */,
+				B248A77420DA73B50093B512 /* MapViewController.swift in Sources */,
 				B202F3B820DA5DCE007707EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
